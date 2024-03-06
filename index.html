@@ -1,0 +1,85 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @font-face {
+        font-family: 'gilroy';
+        src: url(Gilroy-Regular.ttf);
+    }
+
+    * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        font-family: "gilroy", Arial, Helvetica, sans-serif;
+
+    }
+
+
+    body {
+        text-align: center;
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        background-color: black;
+    }
+
+    .background-image {
+        background-image: url('https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+
+    }
+
+    .background-image {
+        position: absolute;
+        opacity: 0.5;
+    }
+
+    .text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: rgb(255, 255, 255);
+
+    }
+
+    .btn {
+        cursor: pointer;
+        padding: 5px;
+        height: 30px;
+        margin-top: 15px;
+        width: 120px;
+        background-color: transparent;
+        border: 1px solid white;
+        color: aliceblue;
+    }
+
+    .btn:hover {
+        background-color: white;
+        color: black;
+    }
+</style>
+
+<body>
+    <div class="background-image"></div>
+    <div class="text">
+        <h2>Forest and Nature</h2>
+        <h5>Lorem ipsum dolor sit amet.</h5>
+        <button class="btn">Explore</button>
+    </div>
+</body>
+
+</html>
